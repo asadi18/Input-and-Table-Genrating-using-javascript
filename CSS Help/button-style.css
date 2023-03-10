@@ -1,0 +1,176 @@
+:root {
+  --danger: #f00;
+  --danger-light: rgba(255, 0, 0, 0.781);
+}
+
+.btn {
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s all ease;
+}
+
+.btn-sm {
+  padding: 7px 13px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-lg {
+  padding: 15px 40px;
+  font-size: 20px;
+}
+
+.btn-default {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-default:hover {
+  background: rgba(0, 123, 255, 0.802);
+}
+
+.btn-default:focus {
+  box-shadow: 0 0 0 0.2rem #000;
+}
+
+.btn-primary {
+  background-color: #5c8af5;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #3a5088;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(92, 138, 245, 0.494);
+}
+
+.btn-default-outline {
+  color: #007bff;
+  background-color: transparent;
+  border: 1px solid #007bff;
+}
+
+.btn-default-outline:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-default-outline:focus {
+  box-shadow: 0 0 0 0.2rem #000;
+}
+
+.btn-secondary {
+  color: #fff;
+  background: #6d767e;
+}
+
+.btn-secondary:hover {
+  background: rgba(121, 131, 139, 0.851);
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(109, 117, 126, 0.494);
+}
+
+.btn-secondary-outline {
+  color: #6d767e;
+  background-color: transparent;
+  border: 1px solid #6d767e;
+}
+
+.btn-secondary-outline:hover {
+  color: #fff;
+  background-color: #6d767e;
+}
+
+.btn-secondary-outline:focus {
+  box-shadow: 0 0 0 0.2rem rgba(109, 117, 126, 0.494);
+}
+
+.btn-green {
+  background: rgba(0, 250, 167, 100);
+  color: rgba(17, 41, 75, 67);
+}
+
+.btn-green:hover {
+  background: rgba(0, 250, 167, 0.644);
+}
+
+.btn-green:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 250, 167, 0.576);
+}
+
+.btn-green-outline {
+  color: rgba(0, 250, 167, 100);
+  background-color: transparent;
+  border: 1px solid rgba(0, 250, 167, 100);
+}
+
+.btn-green-outline:hover {
+  background: rgba(0, 250, 167, 100);
+  color: rgba(17, 41, 75, 67);
+}
+
+.btn-green-outline:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 250, 167, 0.576);
+}
+
+.btn-danger {
+  background: #f00;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: rgba(255, 0, 0, 0.802);
+}
+
+.btn-danger:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.548);
+}
+
+.btn-danger-outline {
+  color: #f00;
+  background-color: transparent;
+  border: 1px solid #f00;
+}
+
+.btn-danger-outline:hover {
+  background: #f00;
+  color: #fff;
+}
+
+.btn-danger-outline:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.548);
+}
+
+.btn-disabled {
+  color: #fff;
+  background-color: rgba(194, 194, 194, 63);
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+  background: rgba(126, 126, 129, 59);
+}
+
+/* shodow */
+.rounder {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px -2px rgba(0, 0, 0, 40);
+}
